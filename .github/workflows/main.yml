@@ -20,7 +20,7 @@ jobs:
       matrix:
         mongodb-version: [4.0, 4.2]
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Steps represent a sequence of tasks that will be executed as part of this job
     steps:
       - name : Step 1 - Checkout the main branch from github
         uses: actions/checkout@v2
